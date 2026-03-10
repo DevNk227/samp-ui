@@ -4,5 +4,10 @@
 
 body {
   background-color: transparent !important;
-  overflow: hidden;
+  overflow: hidden; /* ป้องกันแถบเลื่อน Scrollbar ด้านข้างโผล่ */
+}
+
+/* ตั้งค่าฟอนต์เริ่มต้นให้เป็นแบบไม่มีหัว (Sans-serif) */
+* {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
